@@ -614,7 +614,7 @@ Description
 * Notes
   * `reference_wrapper`
     * Non-standard member function `operator*()` is defined _**only for the purpose of mixed use with**_ `std::invoke`.
-    * Before C++20, `preview::reference_wrapper` cannot be used in deduced context of `std::reference_wrapper`. In sucn
+    * Before C++20, `preview::reference_wrapper` cannot be used in deduced context of `std::reference_wrapper`. In such
       case, non-standard member function `to_std()` can be used.
       ```c++
       template<typename T>
